@@ -1,0 +1,244 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>33/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Mar 21 11:10:02 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>447 seconds (447602 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.Bangladesh.addrtrapache1602vcarb()'><b>addrtrapache1602vcarb</b><br>Test class: testCases.Bangladesh</td>
+<td></td>
+<td>13</td>
+<td>testCases.Bangladesh@5a56cdac</td></tr>
+<tr>
+<td title='testCases.Bangladesh.addapache1602vfi()'><b>addapache1602vfi</b><br>Test class: testCases.Bangladesh</td>
+<td></td>
+<td>18</td>
+<td>testCases.Bangladesh@5a56cdac</td></tr>
+<tr>
+<td title='testCases.Bangladesh.verifyOtp()'><b>verifyOtp</b><br>Test class: testCases.Bangladesh</td>
+<td></td>
+<td>12</td>
+<td>testCases.Bangladesh@5a56cdac</td></tr>
+<tr>
+<td title='testCases.Bangladesh.rehowtovideos()'><b>rehowtovideos</b><br>Test class: testCases.Bangladesh</td>
+<td></td>
+<td>9</td>
+<td>testCases.Bangladesh@5a56cdac</td></tr>
+<tr>
+<td title='testCases.Bangladesh.rtr1602vfisettings()'><b>rtr1602vfisettings</b><br>Test class: testCases.Bangladesh</td>
+<td></td>
+<td>16</td>
+<td>testCases.Bangladesh@5a56cdac</td></tr>
+<tr>
+<td title='testCases.Bangladesh.rtr1602vfiriding101()'><b>rtr1602vfiriding101</b><br>Test class: testCases.Bangladesh</td>
+<td></td>
+<td>4</td>
+<td>testCases.Bangladesh@5a56cdac</td></tr>
+<tr>
+<td title='testCases.Bangladesh.apacheriding101()'><b>apacheriding101</b><br>Test class: testCases.Bangladesh</td>
+<td></td>
+<td>4</td>
+<td>testCases.Bangladesh@5a56cdac</td></tr>
+<tr>
+<td title='testCases.Bangladesh.myprofile()'><b>myprofile</b><br>Test class: testCases.Bangladesh<br>Parameters: Rajesh Pathak, Chattogram, Allergy, Tvs application</td>
+<td></td>
+<td>41</td>
+<td>testCases.Bangladesh@5a56cdac</td></tr>
+<tr>
+<td title='testCases.Bangladesh.rtr1604vsettings()'><b>rtr1604vsettings</b><br>Test class: testCases.Bangladesh</td>
+<td></td>
+<td>17</td>
+<td>testCases.Bangladesh@5a56cdac</td></tr>
+<tr>
+<td title='testCases.Bangladesh.rtr1602vfilocatevehicle()'><b>rtr1602vfilocatevehicle</b><br>Test class: testCases.Bangladesh</td>
+<td></td>
+<td>7</td>
+<td>testCases.Bangladesh@5a56cdac</td></tr>
+<tr>
+<td title='testCases.Bangladesh.rtr1602vfiusermanual()'><b>rtr1602vfiusermanual</b><br>Test class: testCases.Bangladesh</td>
+<td></td>
+<td>5</td>
+<td>testCases.Bangladesh@5a56cdac</td></tr>
+<tr>
+<td title='testCases.Bangladesh.resettings()'><b>resettings</b><br>Test class: testCases.Bangladesh</td>
+<td></td>
+<td>10</td>
+<td>testCases.Bangladesh@5a56cdac</td></tr>
+<tr>
+<td title='testCases.Bangladesh.hamburgerlist()'><b>hamburgerlist</b><br>Test class: testCases.Bangladesh<br>Parameters: TVS Connect Bangladesh Application</td>
+<td></td>
+<td>49</td>
+<td>testCases.Bangladesh@5a56cdac</td></tr>
+<tr>
+<td title='testCases.Bangladesh.applicationLogin()'><b>applicationLogin</b><br>Test class: testCases.Bangladesh</td>
+<td></td>
+<td>27</td>
+<td>testCases.Bangladesh@5a56cdac</td></tr>
+<tr>
+<td title='testCases.Bangladesh.signupDetails()'><b>signupDetails</b><br>Test class: testCases.Bangladesh</td>
+<td></td>
+<td>7</td>
+<td>testCases.Bangladesh@5a56cdac</td></tr>
+<tr>
+<td title='testCases.Bangladesh.apacheusermanual()'><b>apacheusermanual</b><br>Test class: testCases.Bangladesh</td>
+<td></td>
+<td>7</td>
+<td>testCases.Bangladesh@5a56cdac</td></tr>
+<tr>
+<td title='testCases.Bangladesh.rtr1604vaddvehicle()'><b>rtr1604vaddvehicle</b><br>Test class: testCases.Bangladesh</td>
+<td></td>
+<td>26</td>
+<td>testCases.Bangladesh@5a56cdac</td></tr>
+<tr>
+<td title='testCases.Bangladesh.rtr1604vknowyourbike()'><b>rtr1604vknowyourbike</b><br>Test class: testCases.Bangladesh</td>
+<td></td>
+<td>8</td>
+<td>testCases.Bangladesh@5a56cdac</td></tr>
+<tr>
+<td title='testCases.Bangladesh.notification()'><b>notification</b><br>Test class: testCases.Bangladesh</td>
+<td></td>
+<td>2</td>
+<td>testCases.Bangladesh@5a56cdac</td></tr>
+<tr>
+<td title='testCases.Bangladesh.rtr1604vmyrideslist()'><b>rtr1604vmyrideslist</b><br>Test class: testCases.Bangladesh</td>
+<td></td>
+<td>5</td>
+<td>testCases.Bangladesh@5a56cdac</td></tr>
+<tr>
+<td title='testCases.Bangladesh.apachevehicleoverview()'><b>apachevehicleoverview</b><br>Test class: testCases.Bangladesh</td>
+<td></td>
+<td>3</td>
+<td>testCases.Bangladesh@5a56cdac</td></tr>
+<tr>
+<td title='testCases.Bangladesh.relastparkedlocation()'><b>relastparkedlocation</b><br>Test class: testCases.Bangladesh</td>
+<td></td>
+<td>5</td>
+<td>testCases.Bangladesh@5a56cdac</td></tr>
+<tr>
+<td title='testCases.Bangladesh.rtr1604vmytour()'><b>rtr1604vmytour</b><br>Test class: testCases.Bangladesh</td>
+<td></td>
+<td>4</td>
+<td>testCases.Bangladesh@5a56cdac</td></tr>
+<tr>
+<td title='testCases.Bangladesh.apachesettings()'><b>apachesettings</b><br>Test class: testCases.Bangladesh</td>
+<td></td>
+<td>10</td>
+<td>testCases.Bangladesh@5a56cdac</td></tr>
+<tr>
+<td title='testCases.Bangladesh.addracingeditionvehicle()'><b>addracingeditionvehicle</b><br>Test class: testCases.Bangladesh</td>
+<td></td>
+<td>10</td>
+<td>testCases.Bangladesh@5a56cdac</td></tr>
+<tr>
+<td title='testCases.Bangladesh.remyrides()'><b>remyrides</b><br>Test class: testCases.Bangladesh</td>
+<td></td>
+<td>4</td>
+<td>testCases.Bangladesh@5a56cdac</td></tr>
+<tr>
+<td title='testCases.Bangladesh.apachelocatevehicle()'><b>apachelocatevehicle</b><br>Test class: testCases.Bangladesh</td>
+<td></td>
+<td>6</td>
+<td>testCases.Bangladesh@5a56cdac</td></tr>
+<tr>
+<td title='testCases.Bangladesh.rtr1604vridedetails()'><b>rtr1604vridedetails</b><br>Test class: testCases.Bangladesh</td>
+<td></td>
+<td>20</td>
+<td>testCases.Bangladesh@5a56cdac</td></tr>
+<tr>
+<td title='testCases.Bangladesh.reknowyourbike()'><b>reknowyourbike</b><br>Test class: testCases.Bangladesh</td>
+<td></td>
+<td>7</td>
+<td>testCases.Bangladesh@5a56cdac</td></tr>
+<tr>
+<td title='testCases.Bangladesh.dashboardfaqfeedback()'><b>dashboardfaqfeedback</b><br>Test class: testCases.Bangladesh<br>Parameters: TVS Connect Bangladesh Application</td>
+<td></td>
+<td>25</td>
+<td>testCases.Bangladesh@5a56cdac</td></tr>
+<tr>
+<td title='testCases.Bangladesh.apache1602vfivehicleovgierview()'><b>apache1602vfivehicleovgierview</b><br>Test class: testCases.Bangladesh</td>
+<td></td>
+<td>6</td>
+<td>testCases.Bangladesh@5a56cdac</td></tr>
+<tr>
+<td title='testCases.Bangladesh.reridedetails()'><b>reridedetails</b><br>Test class: testCases.Bangladesh</td>
+<td></td>
+<td>6</td>
+<td>testCases.Bangladesh@5a56cdac</td></tr>
+<tr>
+<td title='testCases.Bangladesh.rtr1604vlastparklocation()'><b>rtr1604vlastparklocation</b><br>Test class: testCases.Bangladesh</td>
+<td></td>
+<td>10</td>
+<td>testCases.Bangladesh@5a56cdac</td></tr>
+</table><p>
+</body>
+</html>
