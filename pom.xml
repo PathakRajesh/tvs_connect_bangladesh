@@ -21,7 +21,7 @@
             <version>3.2.5</version>
             <configuration>
 				<suiteXmlFiles>
-					<suiteXmlFiles>master.xml</suiteXmlFiles>
+					<suiteXmlFiles>Master.xml</suiteXmlFiles>
 					
 					
 				</suiteXmlFiles>

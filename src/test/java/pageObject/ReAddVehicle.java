@@ -16,7 +16,7 @@ public class ReAddVehicle extends AndroidActions{
 	private WebElement Add_Vehicle;
 	
 	@AndroidFindBy(xpath="//android.widget.TextView[@text='Racing Edition']/..[@resource-id='com.tvsm.connect.bangladesh:id/rel']/following-sibling::android.widget.ImageView[@resource-id='com.tvsm.connect.bangladesh:id/up_down_arrows']")
-	private WebElement Down_arrow;
+	private WebElement clkDownarrow;
 	
 	//Actions
 	
@@ -25,7 +25,7 @@ public class ReAddVehicle extends AndroidActions{
 		Addnewbike();
 		Add_Vehicle.click();
 		addVehicle();
-		Down_arrow.click();
+		clkDownarrow.click();
 		
 	}
 
