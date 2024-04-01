@@ -3,7 +3,7 @@
 <suite name="Suite">
 	
 	<listeners>
-<listener class-name="utilities.ExtentReportManager"/>
+<listener class-name="utilities.Listeners"/>
 </listeners>
 
   <test thread-count="5" name="Test">

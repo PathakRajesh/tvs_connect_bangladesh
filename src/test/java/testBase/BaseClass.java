@@ -4,17 +4,16 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.net.URL;
-import java.text.SimpleDateFormat;
 import java.time.Duration;
-import java.util.Date;
 import java.util.Properties;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
@@ -33,9 +32,9 @@ public class BaseClass {
 		{
 			
 			 //loading properties file
-			FileReader file=new FileReader(".//src/test/resources/config.properties");
-			p=new Properties();
-			p.load(file);
+	//		FileReader file=new FileReader(".//src/test/resources/config.properties");
+	//		p=new Properties();
+	//		p.load(file);
 		
 			//code to start/run the server automatically
 			service= new AppiumServiceBuilder().withAppiumJS(new File("C:\\Users\\rajesh\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js")).withIPAddress("127.0.0.1").usingPort(4723).withTimeout(Duration.ofSeconds(300)).build();
@@ -54,17 +53,6 @@ public class BaseClass {
 			
 		}
 		
-		
-	/*	@AfterClass
-		public void Teardown()
-		{
-			driver.close();
-			driver.quit();
-		} */
-		
-		
-	
-
 		public String randomeString()
 		{
 			String generatedString=RandomStringUtils.randomAlphabetic(5);
@@ -85,21 +73,23 @@ public class BaseClass {
 			return (str+"@"+num);
 		}
 		
-		public String captureScreen(String tname) throws IOException {
-
-			String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
-					
-			TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
-			File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
-			
-			String targetFilePath=System.getProperty("user.dir")+"\\screenshots\\" + tname + "_" + timeStamp + ".png";
-			File targetFile=new File(targetFilePath);
-			
-			sourceFile.renameTo(targetFile);
-				
-			return targetFilePath;
-	}
-	}
+		
+		public String getScreenshotspath(String TestCaseName,AppiumDriver driver) throws IOException
+		{
+			File source=driver.getScreenshotAs(OutputType.FILE);
+			String destinationFile=System.getProperty("user.dir")+"//reports"+TestCaseName+".png";
+			FileUtils.copyFile(source, new File(destinationFile));
+			return destinationFile;
+		}
+}
+		
+/*		@AfterClass
+		public void Teardown()
+		{
+			driver.close();
+			driver.quit();
+		} 
+	} */
 
 
 

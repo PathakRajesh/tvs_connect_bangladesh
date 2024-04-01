@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="33" passed="33" failed="0" skipped="0">
+<testng-results ignored="0" total="33" passed="31" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-21T11:10:02 IST" name="Suite" finished-at="2024-03-21T11:17:30 IST" duration-ms="447602">
+  <suite started-at="2024-03-29T13:05:22 IST" name="Suite" finished-at="2024-03-29T13:11:44 IST" duration-ms="382085">
     <groups>
     </groups>
-    <test started-at="2024-03-21T11:10:02 IST" name="Test" finished-at="2024-03-21T11:17:30 IST" duration-ms="447602">
+    <test started-at="2024-03-29T13:05:22 IST" name="Test" finished-at="2024-03-29T13:11:44 IST" duration-ms="382085">
       <class name="testCases.Bangladesh">
-        <test-method is-config="true" signature="configureappium()[pri:0, instance:testCases.Bangladesh@5a56cdac]" started-at="2024-03-21T11:10:03 IST" name="configureappium" finished-at="2024-03-21T11:10:28 IST" duration-ms="25058" status="PASS">
+        <test-method is-config="true" signature="configureappium()[pri:0, instance:testCases.Bangladesh@36328d33]" started-at="2024-03-29T13:05:22 IST" name="configureappium" finished-at="2024-03-29T13:05:45 IST" duration-ms="23427" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureappium -->
-        <test-method signature="applicationLogin()[pri:1, instance:testCases.Bangladesh@5a56cdac]" started-at="2024-03-21T11:10:28 IST" name="applicationLogin" finished-at="2024-03-21T11:10:55 IST" duration-ms="27185" status="PASS">
+        <test-method signature="applicationLogin()[pri:1, instance:testCases.Bangladesh@36328d33]" started-at="2024-03-29T13:05:45 IST" name="applicationLogin" finished-at="2024-03-29T13:06:07 IST" duration-ms="21897" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationLogin -->
-        <test-method signature="signupDetails()[pri:2, instance:testCases.Bangladesh@5a56cdac]" started-at="2024-03-21T11:10:55 IST" name="signupDetails" finished-at="2024-03-21T11:11:02 IST" duration-ms="7396" status="PASS">
+        <test-method signature="signupDetails()[pri:2, instance:testCases.Bangladesh@36328d33]" started-at="2024-03-29T13:06:07 IST" name="signupDetails" finished-at="2024-03-29T13:06:13 IST" duration-ms="6151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signupDetails -->
-        <test-method signature="verifyOtp()[pri:3, instance:testCases.Bangladesh@5a56cdac]" started-at="2024-03-21T11:11:02 IST" name="verifyOtp" finished-at="2024-03-21T11:11:15 IST" duration-ms="12855" status="PASS">
+        <test-method signature="verifyOtp()[pri:3, instance:testCases.Bangladesh@36328d33]" started-at="2024-03-29T13:06:13 IST" name="verifyOtp" finished-at="2024-03-29T13:06:24 IST" duration-ms="10085" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyOtp -->
-        <test-method signature="rtr1604vaddvehicle()[pri:4, instance:testCases.Bangladesh@5a56cdac]" started-at="2024-03-21T11:11:15 IST" name="rtr1604vaddvehicle" finished-at="2024-03-21T11:11:42 IST" duration-ms="26657" status="PASS">
+        <test-method signature="rtr1604vaddvehicle()[pri:4, instance:testCases.Bangladesh@36328d33]" started-at="2024-03-29T13:06:24 IST" name="rtr1604vaddvehicle" finished-at="2024-03-29T13:06:50 IST" duration-ms="26743" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- rtr1604vaddvehicle -->
-        <test-method signature="notification()[pri:5, instance:testCases.Bangladesh@5a56cdac]" started-at="2024-03-21T11:11:42 IST" name="notification" finished-at="2024-03-21T11:11:44 IST" duration-ms="2385" status="PASS">
+        <test-method signature="notification()[pri:5, instance:testCases.Bangladesh@36328d33]" started-at="2024-03-29T13:06:50 IST" name="notification" finished-at="2024-03-29T13:06:52 IST" duration-ms="1781" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- notification -->
-        <test-method signature="myprofile(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:testCases.Bangladesh@5a56cdac]" started-at="2024-03-21T11:11:44 IST" name="myprofile" data-provider="profileData" finished-at="2024-03-21T11:12:26 IST" duration-ms="41948" status="PASS">
+        <test-method signature="myprofile(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:testCases.Bangladesh@36328d33]" started-at="2024-03-29T13:06:52 IST" name="myprofile" data-provider="profileData" finished-at="2024-03-29T13:07:28 IST" duration-ms="36088" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,7 +57,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myprofile -->
-        <test-method signature="hamburgerlist(java.lang.String)[pri:7, instance:testCases.Bangladesh@5a56cdac]" started-at="2024-03-21T11:12:26 IST" name="hamburgerlist" data-provider="sendFeedback" finished-at="2024-03-21T11:13:16 IST" duration-ms="49663" status="PASS">
+        <test-method signature="hamburgerlist(java.lang.String)[pri:7, instance:testCases.Bangladesh@36328d33]" started-at="2024-03-29T13:07:28 IST" name="hamburgerlist" data-provider="sendFeedback" finished-at="2024-03-29T13:08:04 IST" duration-ms="36263" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -68,107 +68,245 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hamburgerlist -->
-        <test-method signature="rtr1604vridedetails()[pri:8, instance:testCases.Bangladesh@5a56cdac]" started-at="2024-03-21T11:13:16 IST" name="rtr1604vridedetails" finished-at="2024-03-21T11:13:36 IST" duration-ms="20554" status="PASS">
+        <test-method signature="rtr1604vridedetails()[pri:8, instance:testCases.Bangladesh@36328d33]" started-at="2024-03-29T13:08:04 IST" name="rtr1604vridedetails" finished-at="2024-03-29T13:08:23 IST" duration-ms="18385" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- rtr1604vridedetails -->
-        <test-method signature="rtr1604vmyrideslist()[pri:9, instance:testCases.Bangladesh@5a56cdac]" started-at="2024-03-21T11:13:36 IST" name="rtr1604vmyrideslist" finished-at="2024-03-21T11:13:42 IST" duration-ms="5619" status="PASS">
+        <test-method signature="rtr1604vmyrideslist()[pri:9, instance:testCases.Bangladesh@36328d33]" started-at="2024-03-29T13:08:23 IST" name="rtr1604vmyrideslist" finished-at="2024-03-29T13:08:31 IST" duration-ms="7736" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- rtr1604vmyrideslist -->
-        <test-method signature="rtr1604vmytour()[pri:10, instance:testCases.Bangladesh@5a56cdac]" started-at="2024-03-21T11:13:42 IST" name="rtr1604vmytour" finished-at="2024-03-21T11:13:46 IST" duration-ms="4123" status="PASS">
+        <test-method signature="rtr1604vmytour()[pri:10, instance:testCases.Bangladesh@36328d33]" started-at="2024-03-29T13:08:31 IST" name="rtr1604vmytour" finished-at="2024-03-29T13:08:35 IST" duration-ms="4209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- rtr1604vmytour -->
-        <test-method signature="rtr1604vknowyourbike()[pri:11, instance:testCases.Bangladesh@5a56cdac]" started-at="2024-03-21T11:13:46 IST" name="rtr1604vknowyourbike" finished-at="2024-03-21T11:13:55 IST" duration-ms="8839" status="PASS">
+        <test-method signature="rtr1604vknowyourbike()[pri:11, instance:testCases.Bangladesh@36328d33]" started-at="2024-03-29T13:08:35 IST" name="rtr1604vknowyourbike" finished-at="2024-03-29T13:08:45 IST" duration-ms="10170" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Know')]})]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Know')]})
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:166)
+at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:64)
+at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:78)
+at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$PRrkw47k.click(Unknown Source)
+at pageObject.RTR1604vKnowYourBike.knowyourbike(RTR1604vKnowYourBike.java:21)
+at testCases.Bangladesh.rtr1604vknowyourbike(Bangladesh.java:135)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@624be1d4 (tried for 1 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:262)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:135)
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:160)
+... 33 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //*[contains(@text,'Know')]})
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: driver.version: RemoteWebDriver
+at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:77)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:53)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$1(AppiumElementLocator.java:160)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:217)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:210)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+... 35 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- rtr1604vknowyourbike -->
-        <test-method signature="rtr1604vsettings()[pri:12, instance:testCases.Bangladesh@5a56cdac]" started-at="2024-03-21T11:13:55 IST" name="rtr1604vsettings" finished-at="2024-03-21T11:14:12 IST" duration-ms="17149" status="PASS">
+        <test-method signature="rtr1604vsettings()[pri:12, instance:testCases.Bangladesh@36328d33]" started-at="2024-03-29T13:08:46 IST" name="rtr1604vsettings" finished-at="2024-03-29T13:08:56 IST" duration-ms="10237" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Settings']})]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Settings']})
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:166)
+at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:64)
+at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:78)
+at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$0sVpc9wf.click(Unknown Source)
+at pageObject.RTR1604vSettings.settings(RTR1604vSettings.java:38)
+at testCases.Bangladesh.rtr1604vsettings(Bangladesh.java:143)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@2e1c5d1f (tried for 1 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:262)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:135)
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:160)
+... 33 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Settings']})
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: driver.version: RemoteWebDriver
+at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:77)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:53)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$1(AppiumElementLocator.java:160)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:217)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:210)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+... 35 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- rtr1604vsettings -->
-        <test-method signature="rtr1604vlastparklocation()[pri:13, instance:testCases.Bangladesh@5a56cdac]" started-at="2024-03-21T11:14:12 IST" name="rtr1604vlastparklocation" finished-at="2024-03-21T11:14:23 IST" duration-ms="10597" status="PASS">
+        <test-method signature="rtr1604vlastparklocation()[pri:13, instance:testCases.Bangladesh@36328d33]" started-at="2024-03-29T13:08:57 IST" name="rtr1604vlastparklocation" finished-at="2024-03-29T13:09:12 IST" duration-ms="14642" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- rtr1604vlastparklocation -->
-        <test-method signature="addracingeditionvehicle()[pri:14, instance:testCases.Bangladesh@5a56cdac]" started-at="2024-03-21T11:14:23 IST" name="addracingeditionvehicle" finished-at="2024-03-21T11:14:33 IST" duration-ms="10412" status="PASS">
+        <test-method signature="addracingeditionvehicle()[pri:14, instance:testCases.Bangladesh@36328d33]" started-at="2024-03-29T13:09:12 IST" name="addracingeditionvehicle" finished-at="2024-03-29T13:09:22 IST" duration-ms="9959" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addracingeditionvehicle -->
-        <test-method signature="reridedetails()[pri:15, instance:testCases.Bangladesh@5a56cdac]" started-at="2024-03-21T11:14:33 IST" name="reridedetails" finished-at="2024-03-21T11:14:39 IST" duration-ms="6244" status="PASS">
+        <test-method signature="reridedetails()[pri:15, instance:testCases.Bangladesh@36328d33]" started-at="2024-03-29T13:09:22 IST" name="reridedetails" finished-at="2024-03-29T13:09:26 IST" duration-ms="4220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reridedetails -->
-        <test-method signature="remyrides()[pri:16, instance:testCases.Bangladesh@5a56cdac]" started-at="2024-03-21T11:14:39 IST" name="remyrides" finished-at="2024-03-21T11:14:44 IST" duration-ms="4876" status="PASS">
+        <test-method signature="remyrides()[pri:16, instance:testCases.Bangladesh@36328d33]" started-at="2024-03-29T13:09:26 IST" name="remyrides" finished-at="2024-03-29T13:09:29 IST" duration-ms="3233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- remyrides -->
-        <test-method signature="reknowyourbike()[pri:17, instance:testCases.Bangladesh@5a56cdac]" started-at="2024-03-21T11:14:44 IST" name="reknowyourbike" finished-at="2024-03-21T11:14:51 IST" duration-ms="7119" status="PASS">
+        <test-method signature="reknowyourbike()[pri:17, instance:testCases.Bangladesh@36328d33]" started-at="2024-03-29T13:09:29 IST" name="reknowyourbike" finished-at="2024-03-29T13:09:36 IST" duration-ms="6371" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reknowyourbike -->
-        <test-method signature="resettings()[pri:18, instance:testCases.Bangladesh@5a56cdac]" started-at="2024-03-21T11:14:51 IST" name="resettings" finished-at="2024-03-21T11:15:02 IST" duration-ms="10863" status="PASS">
+        <test-method signature="resettings()[pri:18, instance:testCases.Bangladesh@36328d33]" started-at="2024-03-29T13:09:36 IST" name="resettings" finished-at="2024-03-29T13:09:44 IST" duration-ms="7968" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resettings -->
-        <test-method signature="relastparkedlocation()[pri:19, instance:testCases.Bangladesh@5a56cdac]" started-at="2024-03-21T11:15:02 IST" name="relastparkedlocation" finished-at="2024-03-21T11:15:08 IST" duration-ms="5886" status="PASS">
+        <test-method signature="relastparkedlocation()[pri:19, instance:testCases.Bangladesh@36328d33]" started-at="2024-03-29T13:09:44 IST" name="relastparkedlocation" finished-at="2024-03-29T13:09:49 IST" duration-ms="5334" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- relastparkedlocation -->
-        <test-method signature="rehowtovideos()[pri:20, instance:testCases.Bangladesh@5a56cdac]" started-at="2024-03-21T11:15:08 IST" name="rehowtovideos" finished-at="2024-03-21T11:15:18 IST" duration-ms="9875" status="PASS">
+        <test-method signature="rehowtovideos()[pri:20, instance:testCases.Bangladesh@36328d33]" started-at="2024-03-29T13:09:49 IST" name="rehowtovideos" finished-at="2024-03-29T13:09:57 IST" duration-ms="7903" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- rehowtovideos -->
-        <test-method signature="addrtrapache1602vcarb()[pri:21, instance:testCases.Bangladesh@5a56cdac]" started-at="2024-03-21T11:15:18 IST" name="addrtrapache1602vcarb" finished-at="2024-03-21T11:15:32 IST" duration-ms="13503" status="PASS">
+        <test-method signature="addrtrapache1602vcarb()[pri:21, instance:testCases.Bangladesh@36328d33]" started-at="2024-03-29T13:09:57 IST" name="addrtrapache1602vcarb" finished-at="2024-03-29T13:10:08 IST" duration-ms="11511" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addrtrapache1602vcarb -->
-        <test-method signature="apachevehicleoverview()[pri:22, instance:testCases.Bangladesh@5a56cdac]" started-at="2024-03-21T11:15:32 IST" name="apachevehicleoverview" finished-at="2024-03-21T11:15:35 IST" duration-ms="3699" status="PASS">
+        <test-method signature="apachevehicleoverview()[pri:22, instance:testCases.Bangladesh@36328d33]" started-at="2024-03-29T13:10:08 IST" name="apachevehicleoverview" finished-at="2024-03-29T13:10:11 IST" duration-ms="2772" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- apachevehicleoverview -->
-        <test-method signature="apachesettings()[pri:23, instance:testCases.Bangladesh@5a56cdac]" started-at="2024-03-21T11:15:35 IST" name="apachesettings" finished-at="2024-03-21T11:15:46 IST" duration-ms="10233" status="PASS">
+        <test-method signature="apachesettings()[pri:23, instance:testCases.Bangladesh@36328d33]" started-at="2024-03-29T13:10:11 IST" name="apachesettings" finished-at="2024-03-29T13:10:19 IST" duration-ms="7768" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- apachesettings -->
-        <test-method signature="apachelocatevehicle()[pri:24, instance:testCases.Bangladesh@5a56cdac]" started-at="2024-03-21T11:15:46 IST" name="apachelocatevehicle" finished-at="2024-03-21T11:15:52 IST" duration-ms="6419" status="PASS">
+        <test-method signature="apachelocatevehicle()[pri:24, instance:testCases.Bangladesh@36328d33]" started-at="2024-03-29T13:10:19 IST" name="apachelocatevehicle" finished-at="2024-03-29T13:10:24 IST" duration-ms="5179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- apachelocatevehicle -->
-        <test-method signature="apacheusermanual()[pri:25, instance:testCases.Bangladesh@5a56cdac]" started-at="2024-03-21T11:15:52 IST" name="apacheusermanual" finished-at="2024-03-21T11:16:00 IST" duration-ms="7927" status="PASS">
+        <test-method signature="apacheusermanual()[pri:25, instance:testCases.Bangladesh@36328d33]" started-at="2024-03-29T13:10:24 IST" name="apacheusermanual" finished-at="2024-03-29T13:10:30 IST" duration-ms="6038" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- apacheusermanual -->
-        <test-method signature="apacheriding101()[pri:26, instance:testCases.Bangladesh@5a56cdac]" started-at="2024-03-21T11:16:00 IST" name="apacheriding101" finished-at="2024-03-21T11:16:05 IST" duration-ms="4716" status="PASS">
+        <test-method signature="apacheriding101()[pri:26, instance:testCases.Bangladesh@36328d33]" started-at="2024-03-29T13:10:30 IST" name="apacheriding101" finished-at="2024-03-29T13:10:34 IST" duration-ms="3788" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- apacheriding101 -->
-        <test-method signature="addapache1602vfi()[pri:27, instance:testCases.Bangladesh@5a56cdac]" started-at="2024-03-21T11:16:05 IST" name="addapache1602vfi" finished-at="2024-03-21T11:16:23 IST" duration-ms="18850" status="PASS">
+        <test-method signature="addapache1602vfi()[pri:27, instance:testCases.Bangladesh@36328d33]" started-at="2024-03-29T13:10:34 IST" name="addapache1602vfi" finished-at="2024-03-29T13:10:50 IST" duration-ms="16448" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addapache1602vfi -->
-        <test-method signature="apache1602vfivehicleovgierview()[pri:28, instance:testCases.Bangladesh@5a56cdac]" started-at="2024-03-21T11:16:23 IST" name="apache1602vfivehicleovgierview" finished-at="2024-03-21T11:16:30 IST" duration-ms="6488" status="PASS">
+        <test-method signature="apache1602vfivehicleovgierview()[pri:28, instance:testCases.Bangladesh@36328d33]" started-at="2024-03-29T13:10:50 IST" name="apache1602vfivehicleovgierview" finished-at="2024-03-29T13:10:56 IST" duration-ms="5326" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- apache1602vfivehicleovgierview -->
-        <test-method signature="rtr1602vfisettings()[pri:29, instance:testCases.Bangladesh@5a56cdac]" started-at="2024-03-21T11:16:30 IST" name="rtr1602vfisettings" finished-at="2024-03-21T11:16:47 IST" duration-ms="16611" status="PASS">
+        <test-method signature="rtr1602vfisettings()[pri:29, instance:testCases.Bangladesh@36328d33]" started-at="2024-03-29T13:10:56 IST" name="rtr1602vfisettings" finished-at="2024-03-29T13:11:08 IST" duration-ms="12657" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- rtr1602vfisettings -->
-        <test-method signature="rtr1602vfilocatevehicle()[pri:30, instance:testCases.Bangladesh@5a56cdac]" started-at="2024-03-21T11:16:47 IST" name="rtr1602vfilocatevehicle" finished-at="2024-03-21T11:16:54 IST" duration-ms="7252" status="PASS">
+        <test-method signature="rtr1602vfilocatevehicle()[pri:30, instance:testCases.Bangladesh@36328d33]" started-at="2024-03-29T13:11:08 IST" name="rtr1602vfilocatevehicle" finished-at="2024-03-29T13:11:13 IST" duration-ms="5084" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- rtr1602vfilocatevehicle -->
-        <test-method signature="rtr1602vfiusermanual()[pri:31, instance:testCases.Bangladesh@5a56cdac]" started-at="2024-03-21T11:16:54 IST" name="rtr1602vfiusermanual" finished-at="2024-03-21T11:17:00 IST" duration-ms="5827" status="PASS">
+        <test-method signature="rtr1602vfiusermanual()[pri:31, instance:testCases.Bangladesh@36328d33]" started-at="2024-03-29T13:11:13 IST" name="rtr1602vfiusermanual" finished-at="2024-03-29T13:11:19 IST" duration-ms="6129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- rtr1602vfiusermanual -->
-        <test-method signature="rtr1602vfiriding101()[pri:32, instance:testCases.Bangladesh@5a56cdac]" started-at="2024-03-21T11:17:00 IST" name="rtr1602vfiriding101" finished-at="2024-03-21T11:17:04 IST" duration-ms="4717" status="PASS">
+        <test-method signature="rtr1602vfiriding101()[pri:32, instance:testCases.Bangladesh@36328d33]" started-at="2024-03-29T13:11:20 IST" name="rtr1602vfiriding101" finished-at="2024-03-29T13:11:23 IST" duration-ms="3347" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- rtr1602vfiriding101 -->
-        <test-method signature="dashboardfaqfeedback(java.lang.String)[pri:33, instance:testCases.Bangladesh@5a56cdac]" started-at="2024-03-21T11:17:04 IST" name="dashboardfaqfeedback" data-provider="sendFeedback" finished-at="2024-03-21T11:17:30 IST" duration-ms="25279" status="PASS">
+        <test-method signature="dashboardfaqfeedback(java.lang.String)[pri:33, instance:testCases.Bangladesh@36328d33]" started-at="2024-03-29T13:11:23 IST" name="dashboardfaqfeedback" data-provider="sendFeedback" finished-at="2024-03-29T13:11:44 IST" duration-ms="21206" status="PASS">
           <params>
             <param index="0">
               <value>

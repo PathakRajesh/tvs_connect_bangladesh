@@ -17,6 +17,7 @@
           <include name="rtr1602vfiusermanual"/>
           <include name="rtr1602vfilocatevehicle"/>
           <include name="rtr1604vknowyourbike"/>
+          <include name="Teardown"/>
           <include name="remyrides"/>
           <include name="configureappium"/>
           <include name="apacheusermanual"/>

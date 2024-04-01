@@ -30,18 +30,18 @@ public WebDriver driver;
 
 	}
 
-public void BackIcon()
-{
+    public void BackIcon()
+   {
 	driver.findElement(By.id("com.tvsm.connect.bangladesh:id/imgBack")).click();
-}
-public void HamburgerMenu()
-{
+   }
+   public void HamburgerMenu()
+  {
 	driver.findElement(By.xpath("//android.widget.ImageView[@resource-id=\"com.tvsm.connect.bangladesh:id/imgBack\"]")).click();
-}
-public void EditField(String text)
-{
-	driver.findElement(By.id("com.tvsm.connect.bangladesh:id/edtmobilenmber")).sendKeys(text);
-}
+  }
+   public void EditField(String text)
+ {
+   driver.findElement(By.id("com.tvsm.connect.bangladesh:id/edtmobilenmber")).sendKeys(text);
+  }
 public void Addnewbike()
 {
 	driver.findElement(By.id("com.tvsm.connect.bangladesh:id/menu_add_new_bike")).click();
