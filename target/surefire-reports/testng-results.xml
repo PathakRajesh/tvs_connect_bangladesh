@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="33" passed="33" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-01T10:24:39 IST" name="Suite" finished-at="2024-04-01T10:30:56 IST" duration-ms="376911">
+    <groups>
+    </groups>
+    <test started-at="2024-04-01T10:24:39 IST" name="Test" finished-at="2024-04-01T10:30:56 IST" duration-ms="376911">
+      <class name="testCases.Bangladesh">
+        <test-method is-config="true" signature="configureappium()[pri:0, instance:testCases.Bangladesh@8458f04]" started-at="2024-04-01T10:24:39 IST" name="configureappium" finished-at="2024-04-01T10:24:59 IST" duration-ms="20380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureappium -->
+        <test-method signature="applicationLogin()[pri:1, instance:testCases.Bangladesh@8458f04]" started-at="2024-04-01T10:24:59 IST" name="applicationLogin" finished-at="2024-04-01T10:25:22 IST" duration-ms="22327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationLogin -->
+        <test-method signature="signupDetails()[pri:2, instance:testCases.Bangladesh@8458f04]" started-at="2024-04-01T10:25:22 IST" name="signupDetails" finished-at="2024-04-01T10:25:28 IST" duration-ms="5905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupDetails -->
+        <test-method signature="verifyOtp()[pri:3, instance:testCases.Bangladesh@8458f04]" started-at="2024-04-01T10:25:28 IST" name="verifyOtp" finished-at="2024-04-01T10:25:47 IST" duration-ms="19260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOtp -->
+        <test-method signature="rtr1604vaddvehicle()[pri:4, instance:testCases.Bangladesh@8458f04]" started-at="2024-04-01T10:25:47 IST" name="rtr1604vaddvehicle" finished-at="2024-04-01T10:26:17 IST" duration-ms="30412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rtr1604vaddvehicle -->
+        <test-method signature="notification()[pri:5, instance:testCases.Bangladesh@8458f04]" started-at="2024-04-01T10:26:17 IST" name="notification" finished-at="2024-04-01T10:26:19 IST" duration-ms="1769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notification -->
+        <test-method signature="myprofile(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:testCases.Bangladesh@8458f04]" started-at="2024-04-01T10:26:19 IST" name="myprofile" data-provider="profileData" finished-at="2024-04-01T10:26:55 IST" duration-ms="35686" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rajesh Pathak]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chattogram]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Allergy]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tvs application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myprofile -->
+        <test-method signature="hamburgerlist(java.lang.String)[pri:7, instance:testCases.Bangladesh@8458f04]" started-at="2024-04-01T10:26:55 IST" name="hamburgerlist" data-provider="sendFeedback" finished-at="2024-04-01T10:27:32 IST" duration-ms="37254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TVS Connect Bangladesh Application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hamburgerlist -->
+        <test-method signature="rtr1604vridedetails()[pri:8, instance:testCases.Bangladesh@8458f04]" started-at="2024-04-01T10:27:32 IST" name="rtr1604vridedetails" finished-at="2024-04-01T10:27:50 IST" duration-ms="17679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rtr1604vridedetails -->
+        <test-method signature="rtr1604vmyrideslist()[pri:9, instance:testCases.Bangladesh@8458f04]" started-at="2024-04-01T10:27:50 IST" name="rtr1604vmyrideslist" finished-at="2024-04-01T10:27:55 IST" duration-ms="4792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rtr1604vmyrideslist -->
+        <test-method signature="rtr1604vmytour()[pri:10, instance:testCases.Bangladesh@8458f04]" started-at="2024-04-01T10:27:55 IST" name="rtr1604vmytour" finished-at="2024-04-01T10:27:58 IST" duration-ms="3281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rtr1604vmytour -->
+        <test-method signature="rtr1604vknowyourbike()[pri:11, instance:testCases.Bangladesh@8458f04]" started-at="2024-04-01T10:27:58 IST" name="rtr1604vknowyourbike" finished-at="2024-04-01T10:28:04 IST" duration-ms="6597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rtr1604vknowyourbike -->
+        <test-method signature="rtr1604vsettings()[pri:12, instance:testCases.Bangladesh@8458f04]" started-at="2024-04-01T10:28:04 IST" name="rtr1604vsettings" finished-at="2024-04-01T10:28:18 IST" duration-ms="13076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rtr1604vsettings -->
+        <test-method signature="rtr1604vlastparklocation()[pri:13, instance:testCases.Bangladesh@8458f04]" started-at="2024-04-01T10:28:18 IST" name="rtr1604vlastparklocation" finished-at="2024-04-01T10:28:26 IST" duration-ms="8843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rtr1604vlastparklocation -->
+        <test-method signature="addracingeditionvehicle()[pri:14, instance:testCases.Bangladesh@8458f04]" started-at="2024-04-01T10:28:26 IST" name="addracingeditionvehicle" finished-at="2024-04-01T10:28:36 IST" duration-ms="9616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addracingeditionvehicle -->
+        <test-method signature="reridedetails()[pri:15, instance:testCases.Bangladesh@8458f04]" started-at="2024-04-01T10:28:36 IST" name="reridedetails" finished-at="2024-04-01T10:28:40 IST" duration-ms="4094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reridedetails -->
+        <test-method signature="remyrides()[pri:16, instance:testCases.Bangladesh@8458f04]" started-at="2024-04-01T10:28:40 IST" name="remyrides" finished-at="2024-04-01T10:28:43 IST" duration-ms="3107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remyrides -->
+        <test-method signature="reknowyourbike()[pri:17, instance:testCases.Bangladesh@8458f04]" started-at="2024-04-01T10:28:43 IST" name="reknowyourbike" finished-at="2024-04-01T10:28:49 IST" duration-ms="6247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reknowyourbike -->
+        <test-method signature="resettings()[pri:18, instance:testCases.Bangladesh@8458f04]" started-at="2024-04-01T10:28:49 IST" name="resettings" finished-at="2024-04-01T10:28:58 IST" duration-ms="8785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resettings -->
+        <test-method signature="relastparkedlocation()[pri:19, instance:testCases.Bangladesh@8458f04]" started-at="2024-04-01T10:28:58 IST" name="relastparkedlocation" finished-at="2024-04-01T10:29:03 IST" duration-ms="4880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- relastparkedlocation -->
+        <test-method signature="rehowtovideos()[pri:20, instance:testCases.Bangladesh@8458f04]" started-at="2024-04-01T10:29:03 IST" name="rehowtovideos" finished-at="2024-04-01T10:29:11 IST" duration-ms="7599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rehowtovideos -->
+        <test-method signature="addrtrapache1602vcarb()[pri:21, instance:testCases.Bangladesh@8458f04]" started-at="2024-04-01T10:29:11 IST" name="addrtrapache1602vcarb" finished-at="2024-04-01T10:29:23 IST" duration-ms="11987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addrtrapache1602vcarb -->
+        <test-method signature="apachevehicleoverview()[pri:22, instance:testCases.Bangladesh@8458f04]" started-at="2024-04-01T10:29:23 IST" name="apachevehicleoverview" finished-at="2024-04-01T10:29:25 IST" duration-ms="2347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apachevehicleoverview -->
+        <test-method signature="apachesettings()[pri:23, instance:testCases.Bangladesh@8458f04]" started-at="2024-04-01T10:29:25 IST" name="apachesettings" finished-at="2024-04-01T10:29:33 IST" duration-ms="8350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apachesettings -->
+        <test-method signature="apachelocatevehicle()[pri:24, instance:testCases.Bangladesh@8458f04]" started-at="2024-04-01T10:29:33 IST" name="apachelocatevehicle" finished-at="2024-04-01T10:29:38 IST" duration-ms="4890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apachelocatevehicle -->
+        <test-method signature="apacheusermanual()[pri:25, instance:testCases.Bangladesh@8458f04]" started-at="2024-04-01T10:29:38 IST" name="apacheusermanual" finished-at="2024-04-01T10:29:44 IST" duration-ms="5558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apacheusermanual -->
+        <test-method signature="apacheriding101()[pri:26, instance:testCases.Bangladesh@8458f04]" started-at="2024-04-01T10:29:44 IST" name="apacheriding101" finished-at="2024-04-01T10:29:48 IST" duration-ms="4341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apacheriding101 -->
+        <test-method signature="addapache1602vfi()[pri:27, instance:testCases.Bangladesh@8458f04]" started-at="2024-04-01T10:29:48 IST" name="addapache1602vfi" finished-at="2024-04-01T10:30:04 IST" duration-ms="15767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addapache1602vfi -->
+        <test-method signature="apache1602vfivehicleovgierview()[pri:28, instance:testCases.Bangladesh@8458f04]" started-at="2024-04-01T10:30:04 IST" name="apache1602vfivehicleovgierview" finished-at="2024-04-01T10:30:09 IST" duration-ms="4659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apache1602vfivehicleovgierview -->
+        <test-method signature="rtr1602vfisettings()[pri:29, instance:testCases.Bangladesh@8458f04]" started-at="2024-04-01T10:30:09 IST" name="rtr1602vfisettings" finished-at="2024-04-01T10:30:22 IST" duration-ms="13092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rtr1602vfisettings -->
+        <test-method signature="rtr1602vfilocatevehicle()[pri:30, instance:testCases.Bangladesh@8458f04]" started-at="2024-04-01T10:30:22 IST" name="rtr1602vfilocatevehicle" finished-at="2024-04-01T10:30:27 IST" duration-ms="4821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rtr1602vfilocatevehicle -->
+        <test-method signature="rtr1602vfiusermanual()[pri:31, instance:testCases.Bangladesh@8458f04]" started-at="2024-04-01T10:30:27 IST" name="rtr1602vfiusermanual" finished-at="2024-04-01T10:30:32 IST" duration-ms="5627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rtr1602vfiusermanual -->
+        <test-method signature="rtr1602vfiriding101()[pri:32, instance:testCases.Bangladesh@8458f04]" started-at="2024-04-01T10:30:32 IST" name="rtr1602vfiriding101" finished-at="2024-04-01T10:30:36 IST" duration-ms="3648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rtr1602vfiriding101 -->
+        <test-method signature="dashboardfaqfeedback(java.lang.String)[pri:33, instance:testCases.Bangladesh@8458f04]" started-at="2024-04-01T10:30:36 IST" name="dashboardfaqfeedback" data-provider="sendFeedback" finished-at="2024-04-01T10:30:56 IST" duration-ms="20084" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TVS Connect Bangladesh Application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardfaqfeedback -->
+      </class> <!-- testCases.Bangladesh -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

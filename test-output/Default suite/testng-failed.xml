@@ -6,9 +6,8 @@
       <class name="testCases.Bangladesh">
         <methods>
           <include name="rtr1604vmyrideslist"/>
-          <include name="hamburgerlist"/>
+          <include name="hamburgerlist" invocation-numbers="0"/>
           <include name="reknowyourbike"/>
-          <include name="signupDetails"/>
           <include name="resettings"/>
           <include name="rehowtovideos"/>
           <include name="reridedetails"/>
@@ -17,29 +16,24 @@
           <include name="rtr1602vfiusermanual"/>
           <include name="rtr1602vfilocatevehicle"/>
           <include name="rtr1604vknowyourbike"/>
-          <include name="Teardown"/>
           <include name="remyrides"/>
           <include name="configureappium"/>
           <include name="apacheusermanual"/>
           <include name="addracingeditionvehicle"/>
           <include name="relastparkedlocation"/>
           <include name="addapache1602vfi"/>
-          <include name="rtr1604vaddvehicle"/>
           <include name="apachesettings"/>
-          <include name="applicationLogin"/>
-          <include name="verifyOtp"/>
           <include name="apacheriding101"/>
           <include name="apachevehicleoverview"/>
-          <include name="myprofile"/>
+          <include name="myprofile" invocation-numbers="0"/>
           <include name="rtr1604vlastparklocation"/>
           <include name="apachelocatevehicle"/>
-          <include name="notification"/>
           <include name="rtr1604vmytour"/>
           <include name="rtr1604vsettings"/>
           <include name="rtr1602vfiriding101"/>
           <include name="rtr1602vfisettings"/>
           <include name="addrtrapache1602vcarb"/>
-          <include name="dashboardfaqfeedback"/>
+          <include name="dashboardfaqfeedback" invocation-numbers="0"/>
         </methods>
       </class> <!-- testCases.Bangladesh -->
     </classes>
